@@ -1,7 +1,9 @@
 🏦 Bank Management System
 A Python-based Bank Management System that allows users to create accounts, deposit money, withdraw funds, and check balances. The program simulates a real-world banking experience, providing an intuitive menu-driven interface.
 
-✨ Features
+
+
+✨ Features:
 🔐 Create Account: Register a new bank account with an account number, name, and initial deposit.
 💸 Deposit Money: Add funds to your account.
 🏧 Withdraw Money: Securely withdraw money while ensuring sufficient balance.
@@ -10,10 +12,10 @@ A Python-based Bank Management System that allows users to create accounts, depo
 🛠️ Technologies Used
 Programming Language: Python 🐍
 Core Concepts: Object-Oriented Programming (OOP)
-📂 File Structure
 
 
 
+📂 File Structure:
 BankManagementSystem/
 │
 ├── main.py   # Contains the code for the Bank Management System
@@ -26,19 +28,18 @@ Clone the repository:
 git clone https://github.com/your-username/bank-management-system.git
 cd bank-management-system
 Run the Python script:
-
-
-
 python main.py
 Follow the on-screen menu to interact with the system.
+
+
 
 📝 Code Walkthrough
 1️⃣ BankAccount Class
 A class representing an individual bank account with the following functionalities:
-
 deposit(amount): Add money to the account.
 withdraw(amount): Deduct money from the account.
 check_balance(): Display the current balance.
+
 2️⃣ BankManagementSystem Class
 Manages multiple accounts and provides the main interface:
 
